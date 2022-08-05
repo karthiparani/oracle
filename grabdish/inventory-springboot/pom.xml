@@ -8,7 +8,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.5.3</version>
-		<relativePath />
+		<relativePath/>
 	</parent>
 
 	<groupId>com.springboot.inventory</groupId>
@@ -67,7 +67,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jms</artifactId>
-			<version>5.3.5</version>
+			<version>5.3.22</version>
 		</dependency>
 
 
