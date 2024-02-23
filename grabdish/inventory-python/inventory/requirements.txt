@@ -4,3 +4,4 @@ gunicorn                    # req for config.py
 cx_Oracle                   # req for app.py, consumer.py
 simplejson                  # req for app.py, consumer.py
 oci                         # req for vaultsecret.py 
+cryptography>=42.0.4 # not directly required, pinned by Snyk to avoid a vulnerability
