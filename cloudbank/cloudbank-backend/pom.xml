@@ -62,7 +62,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jms</artifactId>
-            <version>5.3.5</version>
+            <version>6.1.14</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
