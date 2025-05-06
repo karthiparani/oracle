@@ -6,7 +6,7 @@ COPY . .
 RUN go get -d -v
 RUN go build -o /go/bin/inventory-go
 
-FROM alpine:latest
+FROM alpine:3.18.3
 ENV LD_LIBRARY_PATH=/lib
 RUN wget https://download.oracle.com/otn_software/linux/instantclient/193000/instantclient-basic-linux.x64-19.3.0.0.0dbru.zip && \
     unzip instantclient-basic-linux.x64-19.3.0.0.0dbru.zip && \
